@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FaBuActivity">
+
+    <ImageView
+        android:id="@+id/fabu_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/buy" />
+
+    <EditText
+        android:layout_below="@id/fabu_img"
+        android:id="@+id/fabu_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入发布内容" />
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/zouzhe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发布" />
+</RelativeLayout>

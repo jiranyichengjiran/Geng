@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Geng</string>
+    <string name="app_phone">手机号</string>
+    <string name="app_pwd">登录密码</string>
+    <string name="rem_pwd">记住密码</string>
+    <string name="fast_regin">快速注册</string>
+    <string name="login">登录</string>
+    <string name="regin_phone">手机号</string>
+    <string name="regin_yan">验证码</string>
+    <string name="login_pwd">登录密码</string>
+    <string name="must">已有账户?立即登录</string>
+    <string name="regin">注册</string>
+    <string name="title_activity_xiang">XiangActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="myself_nickname">我是吃不胖的小姐姐</string>
+    <string name="sou">搜索</string>
+</resources>

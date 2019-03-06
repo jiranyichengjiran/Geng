@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24px"
+        android:layout_marginTop="44px"
+        android:layout_marginRight="24px"
+        android:background="@drawable/shape_ufo_pg">
+
+        <ImageView
+            android:id="@+id/quan_tou2"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_marginTop="10px"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/quan_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="50px"
+            android:layout_marginLeft="16px"
+            android:layout_toRightOf="@id/quan_tou2"
+            android:gravity="center_vertical"
+            android:text="name"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/quan_time2"
+            android:layout_width="wrap_content"
+            android:layout_height="50px"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:text="time" />
+
+        <TextView
+            android:id="@+id/quan_title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quan_name2"
+            android:layout_marginTop="10dp"
+            android:text="title" />
+
+
+        <ImageView
+            android:id="@+id/quan_image2"
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:layout_below="@id/quan_title2"
+            android:layout_marginTop="10px"
+            android:src="@mipmap/ic_launcher" />
+       <ImageView
+           android:id="@+id/zan"
+           android:src="@drawable/common_btn_prise_s_xhdpi"
+           android:layout_alignBottom="@id/quan_image2"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="100dp"
+           android:layout_marginBottom="20dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/zan_num"
+            android:text="0"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignBottom="@id/quan_image2"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</LinearLayout>
